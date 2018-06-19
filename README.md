@@ -19,6 +19,12 @@
 ```for /f "usebackq eol=# tokens=1,* delims==" %i in (file.ini) do @echo i=%i j=%j```
 
 
+    file.ini
+```
+    # xyz=123
+    abc.txt=123,456,789
+    xyz.csv=000=123
+```
 
 
 
