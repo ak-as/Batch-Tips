@@ -14,7 +14,9 @@
 
 
 
+## propertiesファイル(iniファイル)の内容を1行ずつ表示する
 
+```for /f "usebackq eol=# tokens=1,* delims==" %i in (file.ini) do @echo i=%i j=%j```
 
 
 
