@@ -1,4 +1,4 @@
-# batch_tips
+# Batch Tips
 バッチプログラムのTips
 
 
